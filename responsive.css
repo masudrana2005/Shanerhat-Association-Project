@@ -1,0 +1,99 @@
+
+@media only screen and (min-width: 200px) and (max-width: 991px){
+    .container{
+        margin-top: 0px;
+    }
+    /* header */
+    .mobile-menu{
+        visibility: hidden;
+        opacity: 0;
+        transition: .5s;
+    }
+    .menu-icon{
+        background-color: #d8d6d6;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding: 10px;
+        visibility: visible;
+        box-shadow: 0px 1px 5px 1px;
+    }
+    .menu-icon i{
+        color: #000;
+        font-size: 22px;
+        padding: 5px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    .menu-icon .menu-close{
+        display: none;
+    }
+    .show.mobile-menu{
+        visibility: visible;
+        opacity: 1;
+    }
+    .menu-and-logo-area{
+        box-shadow: 0px 1px 5px 1px;
+        
+    }
+    header .container{
+        background-color: #c7ecee;
+    }
+
+    .menu-and-logo-area{
+        margin-top: -58px;
+    }
+    .menu-area{
+        margin-top: 50px;
+    }
+    .menu-area ul li{
+        width: 100%;
+        text-align: center;
+    }
+    .logo-area{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* hero area */
+    h1{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    .hero-area .slogan{
+        margin-top: 40px;
+    }
+
+    /* footer area */
+    .footer-area p{
+        font-size: 14px;
+    }
+    .footer-area .contact{
+        padding: 10px;
+    }
+
+    /* About Us */
+    .about-us{
+        padding: 30px;
+    }
+
+    /* Our Services */
+    .our-services{
+        padding: 50px;
+    }
+
+    /* Admission */
+    .admission-form-info{
+        padding: 40px;
+    }
+
+    /* Contact */
+    .contact-area .social{
+        padding-top: 20px;
+    }
+
+}
